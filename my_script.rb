@@ -15,7 +15,7 @@ end
 @browser.get 'http://demo.redmine.org'
 @browser.find_element(:class, 'register').click
 
-login= 'Johny'
+login= 'Johny2'
 register_as(login)
 
 #logout/login
